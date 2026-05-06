@@ -38,6 +38,22 @@ switch ($page) {
         $controller = new CronicasController();
         $controller->index();
         break;
+    case 'login':
+        $controller = new AuthController();
+        $controller->login();
+        break;
+    case 'cadastro':
+        $controller = new AuthController();
+        $controller->cadastro();
+        break;
+    case 'autenticar':
+        $controller = new AuthController();
+        $controller->autenticar();
+        break;
+    case 'registrar':
+        $controller = new AuthController();
+        $controller->registrar();
+        break;
     default:
         require_once 'view/Home.php';
         break;

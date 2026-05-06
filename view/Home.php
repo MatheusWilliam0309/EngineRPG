@@ -129,7 +129,7 @@
         <h2 class="font-headline text-[clamp(2rem,5vw,3.5rem)] mb-5 max-w-[40rem] mx-auto">O Vácuo aguarda suas histórias.</h2>
         <p class="text-secondary italic mb-12 max-w-[30rem] mx-auto leading-relaxed">Junte-se a mais de 10.000 escribas que já estão moldando seus próprios mundos.</p>
         <div class="inline-block p-1 bg-gradient-to-br from-primary to-primary-container rounded">
-          <a href="index.php?page=campanhas" class="block bg-surface px-14 py-5 font-bold uppercase tracking-[0.18em] text-[0.85rem] text-primary cursor-pointer border-none rounded transition-all hover:bg-transparent hover:text-on-primary no-underline">Forjar meu Destino</a>
+          <a href="index.php?page=cadastro" class="block bg-surface px-14 py-5 font-bold uppercase tracking-[0.18em] text-[0.85rem] text-primary cursor-pointer border-none rounded transition-all hover:bg-transparent hover:text-on-primary no-underline">Forjar meu Destino</a>
         </div>
       </div>
     </section>
