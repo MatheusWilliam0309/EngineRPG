@@ -28,10 +28,10 @@
 
 @layer utilities {
   @keyframes float-particle {
-    0% { transform: translateY(100vh) translateX(0) scale(0); opacity: 0; }
-    10% { opacity: 0.6; }
-    90% { opacity: 0.3; }
-    100% { transform: translateY(-10vh) translateX(var(--drift)) scale(1.5); opacity: 0; }
+    0% { transform: translateY(100vh) translateX(0) scale(0.5); opacity: 0; };
+    10% { opacity: 0.6; };
+    90% { opacity: 0.3; };
+    100% { transform: translateY(-10vh) translateX(var(--drift)) scale(3); opacity: 0; };
   }
   .animate-particle {
     animation: float-particle var(--dur) var(--delay) ease-in-out infinite;

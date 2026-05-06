@@ -24,7 +24,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 // 3. Sistema de Roteamento
 switch ($page) {
     case 'home':
-        require_once 'View/Home.php';
+        require_once 'view/Home.php';
         break;
     case 'campanhas':
         $controller = new CampanhasController();
@@ -39,6 +39,6 @@ switch ($page) {
         $controller->index();
         break;
     default:
-        require_once 'View/Home.php';
+        require_once 'view/Home.php';
         break;
 }

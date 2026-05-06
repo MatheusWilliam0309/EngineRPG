@@ -12,6 +12,6 @@ class CampanhasController {
 
     public function detalhes() {
         // Para a página individual da campanha (dashboard)
-        require_once 'View/campanha.php';
+        require_once 'View/campanhas.php';
     }
 }

@@ -1,3 +1,3 @@
 # EngineRPG
 
-/* .\tailwindcss.exe -i .\src\input.css -o .\public\style.css --watch *\ //atualiza o tailwind remotamente
+/* .\tailwindcss.exe -i .\assets\src\input.css -o .\assets\style.css --watch *\ //atualiza o tailwind remotamente
